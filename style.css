@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 
 * {
     padding: 0;
@@ -83,7 +84,6 @@ header .buy_nav_btn:hover {
 header section {
     width: 100%;
     height: 85%;
-    border: 1px solid #fff;
     display: flex;
 }
 
@@ -92,15 +92,54 @@ header .right_bx {
     position: relative;
     width: 60%;
     height: 100%;
-    border: 1px solid #fff;
 }
 
 header .right_bx {
     width: 40%;
 }
 
+header .right_bx .right_btn_bx {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+header .right_bx .right_btn_bx span {
+    font-size: 8px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5); 
+    margin-right: 7px;
+}
+
+header .right_bx .right_btn_bx .bi {
+    font-size: 12px;
+    cursor: var(--cursor);
+    transition: all 0.4s linear;
+}
+
+header .right_bx .right_btn_bx .bi:hover {
+    color: #052141;
+}
+
 header .left_bx {
     padding: 40px 0 0 70px;
+}
+
+header .left_bx #left_btn {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    color: #fff;
+    font-size: 12px;
+    cursor: var(--cursor);
+    transition: all 0.4s linear;
+}
+
+header .left_bx #left_btn:hover {
+    color: #052141;
 }
 
 header .left_bx .content {
@@ -228,3 +267,80 @@ header .left_bx .item_bx .card_pepsi h6 {
 header .left_bx .item_bx .card_pepsi:hover h6 {
     color: #fff;
 }
+
+header .right_bx img {
+    width: 430px;
+    margin: 20px 0 0 -180px;
+}
+
+header .right_bx .level {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 30px;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+header .right_bx .level h6 {
+    width: 8px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 13px;
+}
+
+header .right_bx .level h6:nth-child(3) {
+    width: 18px;
+    height: 1px;
+    background: #fff;
+}
+
+header .ml_bx {
+    position: absolute;
+    width: 110px;
+    height: 150px;
+    background: rgb(44, 138, 245);
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    padding: 20px 0 0 20px;
+}
+
+header .ml_bx p {
+    font-size: 9px;
+}
+
+header .ml_bx h6 {
+    font-size: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+header .ml_bx h5 {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background: #196bd0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
