@@ -121,7 +121,7 @@ header .right_bx .right_btn_bx .bi {
 }
 
 header .right_bx .right_btn_bx .bi:hover {
-    color: #052141;
+    color: #ab0202;
 }
 
 header .left_bx {
@@ -139,7 +139,7 @@ header .left_bx #left_btn {
 }
 
 header .left_bx #left_btn:hover {
-    color: #052141;
+    color: #ab0202;
 }
 
 header .left_bx .content {
